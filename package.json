@@ -16,7 +16,7 @@
     "prepare": "npm run build",
     "start": "webpack-dev-server --content-base assets/",
     "test": "npm run lint && npm run typecheck && npm run test-src",
-    "test-src": "BABEL_ENV=test mocha \"src/**/__tests__/*.js\"",
+    "test-src": "BABEL_ENV=test mocha \"src/**/__tests__/*.js\""
   },
   "dependencies": {
     "babel-runtime": "^6.23.0",
