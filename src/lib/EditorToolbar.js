@@ -339,6 +339,7 @@ export default class EditorToolbar extends Component {
       }
     }
     this.setState({showLinkInput: !isShowing});
+    event.stopPropogation();
   }
 
   _toggleShowImageInput(event: ?Object) {
